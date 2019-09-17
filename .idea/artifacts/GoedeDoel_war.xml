@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GoedeDoel:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GoedeDoel</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GoedeDoel-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GoedeDoel:war exploded" />
+    </root>
+  </artifact>
+</component>
