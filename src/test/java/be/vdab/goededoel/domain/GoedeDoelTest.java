@@ -28,4 +28,8 @@ public class GoedeDoelTest {
 	@Test
 	void doelenMetVerschillendeNaamZijnVerschillend() { assertThat(doel).isNotEqualTo(new GoedeDoel("WWF"));
 	}
+
+	@Test
+	void doelVerschiltVanEenObjectMetEenAnderType() { assertThat(doel).isNotEqualTo(BigDecimal.ZERO);
+	}
 }
