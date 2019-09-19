@@ -22,5 +22,10 @@ public class GoedeDoelTest {
 		assertEquals(NAAM, doel.getNaam());
 	}
 
-
+	@Test
+	void doelenMetDezelfdeNaamZijnGelijk() { assertThat(doel).isEqualTo(new GoedeDoel("CLINICLOWNS"));
+	}
+	@Test
+	void doelenMetVerschillendeNaamZijnVerschillend() { assertThat(doel).isNotEqualTo(new GoedeDoel("WWF"));
+	}
 }
