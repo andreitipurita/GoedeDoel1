@@ -1,11 +1,14 @@
 package be.vdab.goededoel.domain;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import be.vdab.goededoel.domain.GoedeDoel;
+
+import java.math.BigDecimal;
 
 
 public class GoedeDoelTest {

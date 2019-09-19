@@ -13,7 +13,7 @@ public class GoedeDoel {
 
 	/**
 	 * Maakt een GoedeDoel object
-	 * @param naam De naam van het goede doel  */
+	 * @param naam De naam van het goede doel  */
 	public GoedeDoel(String naam) {
 		this.naam = naam;
 	}
